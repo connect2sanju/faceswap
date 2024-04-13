@@ -1,6 +1,6 @@
 # Face Swap
 
-> Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
+> Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/s0md3v/roop/ci.yml.svg?branch=main)](https://github.com/s0md3v/roop/actions?query=workflow:ci)
 
