@@ -1,14 +1,14 @@
 # Face Swap
 
 ## Execution
-> 1. Modify 'execute_face_swap.py' script as below:
+> Modify 'execute_face_swap.py' script as below:
 ```
 source_dir = "path/of/source/image"
 target_dir = "path/of/target/file"
 output_dir = "path/of/output/file" 
 
+> Run the script:
 ```
-> 2. Run the script:
 python execute_face_swap.py 
 
 This will produce the swapped video/image.
