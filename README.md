@@ -6,6 +6,7 @@
 source_dir = "path/of/source/image"
 target_dir = "path/of/target/file"
 output_dir = "path/of/output/file" 
+```
 
 > Run the script:
 ```
