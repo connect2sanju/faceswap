@@ -33,13 +33,14 @@ def setup(repo_url):
         
 def main():
     repo_url = "https://github.com/s0md3v/roop.git"
-    setup(repo_url)
-
-    # Run the provided Python script to generate swapped video
-    # run_command("python run.py --target roop/data/test_video.mp4 --source roop/data/salman.jpeg -o /roop/data/swapped.mp4 --execution-provider cpu --frame-processor face_swapper face_enhancer")
+    # setup(repo_url)
     
-    # Run the provided Python script to generate swapped images
-    run_command("python run.py --target roop/data/aamir.jpeg --source roop/data/salman.jpeg -o roop/data/swapped.jpeg --execution-provider cpu --frame-processor face_swapper face_enhancer")
+    source_dir = "roop//data//salman.jpeg" #will be image for image and video swapping
+    target_dir = "roop//data//aamir.jpeg" #change to video path for swapped video generation
+    output_dir = "roop//data//swapped.jpeg" #change to video path for swapped video generation
+    
+    # Run the provided Python script to generate swapped image/s/videos
+    run_command(f"python run.py --source {source_dir} --target {target_dir} -o {output_dir} --execution-provider cpu --frame-processor face_swapper face_enhancer")
 
 if __name__ == "__main__":
     main()
