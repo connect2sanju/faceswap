@@ -11,6 +11,7 @@ output_dir = "path/of/output/file"
 > Run the script:
 ```
 python execute_face_swap.py 
+```
 
 This will produce the swapped video/image.
 
