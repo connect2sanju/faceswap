@@ -2,9 +2,13 @@
 
 ## Execution
 1. Modify execute_face_swap.py script as below:
-    source_dir = "path/of/source/image"
-    target_dir = "path/of/target/file"
-    output_dir = "path/of/output/file" 
+```
+source_dir = "path/of/source/image"
+target_dir = "path/of/target/file"
+output_dir = "path/of/output/file" 
+
+```
+
 2. execute python execute_face_swap.py to produce swapped video/image
 
 > Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training
