@@ -1,7 +1,7 @@
 # Face Swap
 
 ## Execution
-> Modify 'execute_face_swap.py' script as below:
+> Modify 'execute_face_swap.py' script which is a wrapper to execute the trigger 'faceswap' task:
 ```
 source_dir = "path/of/source/image"
 target_dir = "path/of/target/file"

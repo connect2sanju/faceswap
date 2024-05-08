@@ -33,7 +33,7 @@ def setup(repo_url):
         
 def main():
     repo_url = "https://github.com/s0md3v/roop.git"
-    # setup(repo_url)
+    setup(repo_url)
     
     source_dir = "roop//data//salman.jpeg" #will be image for image and video swapping
     target_dir = "roop//data//aamir.jpeg" #change to video path for swapped video generation
